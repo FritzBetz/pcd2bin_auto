@@ -1,4 +1,10 @@
 ## About ##
+This project is a Fork from https://github.com/Yuseung-Na/pcd2bin
+
+It includes requirements.txt for easier installation,
+and batch converts .pcd files from a folder, if its name is given in `--pcg_path` arg,
+automatically creates target folder in directory of script
+
 
 This code is about .pcd to .bin converting tool.  
 PointCloud(.pcd) file includes `x, y, z, intensity, (ring, time)` data.  
