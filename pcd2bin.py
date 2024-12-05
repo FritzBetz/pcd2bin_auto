@@ -3,12 +3,13 @@
 # Description:  .pcd to .bin converter
 #
 # Author:       Yuseung Na (ys.na0220@gmail.com)
-# Version:      1.0
+# Version:      1.1
 #
 # Revision History
 #       January 19, 2021: Yuseung Na, Created
-#
+#       December 5, 2024: Friedrich Betz, Edited
 
+import errno
 import numpy as np
 import os
 import argparse
