@@ -2,7 +2,9 @@
 This project is a Fork from https://github.com/Yuseung-Na/pcd2bin
 
 It includes requirements.txt for easier installation,
+
 and batch converts .pcd files from a folder, if its name is given in `--pcg_path` arg,
+
 automatically creates target folder in directory of script
 
 
