@@ -13,7 +13,7 @@ import errno
 import numpy as np
 import os
 import argparse
-from pypcd_custom import pypcd
+from pypcd_custom import *
 import csv
 from tqdm import tqdm
 
@@ -68,7 +68,7 @@ def main():
         seq = 0
         for pcd_file in (pcd_files):
             ## Get pcd file
-            pc = pypcd.PointCloud.from_path(pcd_file)
+            pc = PointCloud.from_path(pcd_file)
 
             ## Generate bin file name
             bin_file_name = "{}_{:05d}.bin".format(os.path.splitext(os.path.basename(pcd_file))[0], seq)
