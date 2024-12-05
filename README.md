@@ -17,13 +17,10 @@ You can convert all the .pcd files (sorted in ascending order by file name) in t
 Tested with Python 3.12.4 , supports later version 
 
 ### 1. Install python libraries ###
-`$ pip install numpy`  
-`$ pip install argparse`  
-`$ pip install pypcd`  
-`$ pip install tqdm`  
+`$ pip install -r requirements.txt` 
 
 ### 2. Launch python file ###
-`$ python pcd2bin.py --pcd_path={path of input pcd file directory} --bin_path={path of output bin file directory}  --file_name={name of bin file}`
+`$ python pcd2bin.py --pcd_path={path of input pcd directory}`
 
 #### Parameters ####
 |Name|Description|Default value|
